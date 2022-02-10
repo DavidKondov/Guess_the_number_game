@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="property.setter" />
+          <option value="list.take_room" />
+          <option value="list.free_room" />
+          <option value="str.customer_id" />
+          <option value="str.trainer_id" />
+          <option value="str.equipment_id" />
+          <option value="str.plan_id" />
+          <option value="project.movie_world" />
+          <option value="str.add_transaction" />
+          <option value="project.everland.get_monthly_consumptions.total_consumption" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
