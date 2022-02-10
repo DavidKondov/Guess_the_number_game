@@ -6,7 +6,7 @@ while True:
     try:
         down_border_number = int(down_border_number)
         break
-    except:
+    except ValueError:
         print()
         print('You have to type an integer!')
 
@@ -15,7 +15,7 @@ while True:
 
     try:
         upper_border_number = int(upper_border_number)
-    except:
+    except ValueError:
         print()
         print('You have to type an integer!')
         upper_border_number = input('Type the upper border of the guessing game: ')
@@ -37,7 +37,7 @@ while True:
         break
 
 random_number = random.randint(down_border_number, upper_border_number)
-print(random_number)
+
 player_number = input('Type your guess: ')
 attempts = 0
 while True:
